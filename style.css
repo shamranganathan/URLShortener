@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top left, #8585ff,#ff7878fd);
+
+}
+
+.container{
+    background: linear-gradient(to top right,#ff3636fd, #6868ff);
+    padding:1.2rem;
+    border-radius: .6rem;
+    border:2px solid blueviolet;
+}
+
+h1{
+    margin:1rem 0;
+}
+
+input{
+    width: 100%;
+    padding:.9rem;
+    margin:1.2rem 0;
+    border:1px solid #ccc;
+    border-radius: 4px;
+}
+
+button{
+    transition: all .2s linear;
+    background-color: #4c6faf;
+    color:#fff;
+    padding:.7rem .9rem;
+    border:none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #3e518e;
+}
+
+#result{
+    margin-top: 10px;
+}
+
+/* #longurl{
+    position: relative;
+    top: 40%;
+    left: 10%;
+    height: 40px;
+    width: 296px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 20px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#shorten{
+    position: relative;
+    top: 40%;
+    left: 12%;
+    height: 40px;
+    width: 80px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: large;
+    font-weight: bold;
+    font-family: monospace;
+    color: white;
+    background-color: purple;
+}
+
+#shorten:hover{
+    background-color: skyblue;
+}
+
+#shorturl{
+    position: relative;
+    top: 45%;
+    left: 10%;
+    height: 40px;
+    width: 270px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 47px;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+#copy{
+    position: relative;
+    top: 46%;
+    left: 0%;
+    height: 35px;
+    width: 35px;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: white;
+    background-color: purple;
+}
+
+#copy:hover{
+    background-color: skyblue;
+}
+
+.main p{
+    /* background-color: white; */
+    /* position: relative;
+    top: 30%;
+    left: 13%;
+    height: 60px;
+    width: 400px;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    color: rgb(160, 0, 0);
+} */ */
