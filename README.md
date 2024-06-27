@@ -1,7 +1,7 @@
 # URLShortener  
 
-I have implemented a # JavaScript function that takes a long URL as input and returns a shortened
-version of the URL. Additionally, I have implement a function to decode the shortened
+This application has a JavaScript function that takes a long URL as input and returns a shortened
+version of the URL. Additionally, it has a function to decode the shortened
 URL and redirect the user to the original long URL.
 
 # 1. Shortening Function (encodeURL):
